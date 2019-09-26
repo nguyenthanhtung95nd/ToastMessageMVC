@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     {
         public ActionResult Index()
         {
-            this.AddToastMessage("LARION", "Nguyen Thanh Tung" + DateTime.Now.ToShortDateString(), ToastType.Info);
+            this.AddToastMessage("abc", "Nguyen Thanh Tung" + DateTime.Now.ToShortDateString(), ToastType.Info);
 
             return View();
         }
